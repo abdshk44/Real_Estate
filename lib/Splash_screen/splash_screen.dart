@@ -18,17 +18,14 @@ class _SplashscreenState extends State<Splashscreen> {
           Image.asset(
             'assets/images/logo.png',
             fit: BoxFit.cover,
-            // width: double.infinity,
+
             width: 500,
           ),
           Positioned(
               child: Image.asset(
             'assets/images/logo1.png',
             fit: BoxFit.cover,
-             // width: double.infinity,
                 width: 500,
-             //    height: double.infinity,
-
           )),
           Positioned(
               child:
@@ -39,8 +36,7 @@ class _SplashscreenState extends State<Splashscreen> {
                 'assets/images/logo2.png',
                 fit: BoxFit.cover,
                 width: 500,
-height: 200,
-//                width: double.infinity,
+                height: 200,
               )),
           Positioned(
             top: MediaQuery.of(context).size.height / 1.7,
